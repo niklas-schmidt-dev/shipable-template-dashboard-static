@@ -1,0 +1,13 @@
+{
+  "id": "dashboard-static",
+  "name": "Operations Dashboard",
+  "description": "A dense local-state React dashboard seed for metrics, queues, status reviews, and operational workflows.",
+  "category": "Business",
+  "tags": ["dashboard", "metrics", "operations"],
+  "familyId": "dashboard",
+  "variantLabel": "Static",
+  "sortOrder": 20,
+  "promptPlaceholder": "A SaaS operations dashboard with revenue metrics, customer health, incidents, and follow-up tasks.",
+  "preview": "",
+  "status": "active"
+}
