@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 2,
+  "name": "dashboard-static",
+  "components": [
+    {
+      "id": "web",
+      "type": "frontend",
+      "source": {
+        "path": "."
+      },
+      "build": {
+        "packageManager": "npm",
+        "install": "npm install --include=dev --no-audit --no-fund",
+        "check": "npm run typecheck",
+        "command": "npm run build",
+        "output": "dist"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "component": "web",
+      "environment": "preview"
+    }
+  ]
+}
